@@ -1,0 +1,22 @@
+# --- Виртуальное окружение ---
+.venv/
+venv/
+env/
+
+# --- PyCharm ---
+.idea/
+*.iml
+*.iws
+out/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Наша статистика (чтобы не коммитить свои сыгранные игры) ---
+*.json
+wordle_stats.json# created by virtualenv automatically
+.venv/Lib
